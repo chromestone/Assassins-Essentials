@@ -1,0 +1,63 @@
+name: AssassinsEssentials
+main: com.gmail.absolutevanillahelp.AssassinsEssentials.AssassinsEssentials
+version: 1.0
+commands:
+  spawn:
+    description: Teleport to spawn.
+    usage: /spawn
+    permission: AssassinsEssentials.spawn
+  shop:
+    description: Shop commands.
+    usage: /shop (buy [number] | balance | enchant [enchantment (level)] ) (parentheses are mandatory arguments & pipeline equivalent to OR) (SHOP BUY-lists buyable items) & (SHOP ENCHANT lists available enchantments)
+    permission: AssassinsEssentials.shop
+  enderchest:
+    description: Opens enderchest.
+    usage: /enderchest
+    permission: AssassinsEssentials.enderchest
+  play:
+    description: Teleports you into the game.
+    usage: /play
+    permission: AssassinsEssentials.play
+  setwaypoint:
+    description: Sets a way point.
+    usage: /setwaypoint
+    permission: AssassinsEssentials.setwaypoint
+  listwaypoints:
+    description: Lists all the way points.
+    usage: /listwaypoints
+    permission: AssassinsEssentials.listwaypoint
+  UnlockC:
+    description: Known to few
+    usage: /UnlockC
+    permission: AssassinsEssentials.UnlockC
+  SecureCheckC:
+    description: Known to few
+    usage: /SecureCheckC
+    permission: AssassinsEssentials.SecureCheckC
+  SSG:
+    description: SEVENSUPERGIRLS!!! HEARTS, HEARTS, HEARTS!
+    usage: /SSG
+    permission: AssassinsEssentials.SSG
+  SevenSuperGirls:
+    description: SEVENSUPERGIRLS!!! HEARTS, HEARTS, HEARTS!
+    usage: /SevenSuperGirls
+    permission: AssassinsEssentials.SSG
+permissions:
+  AssassinsEssentials.spawn:
+    default: op
+  AssassinsEssentials.shop:
+    default: true
+  AssassinsEssentials.enderchest:
+    default: true
+  AssassinsEssentials.play:
+    default: true
+  AssassinsEssentials.setwaypoint:
+    default: op
+  AssassinsEssentials.listwaypoint:
+    default: op
+  AssassinsEssentials.UnlockC:
+    default: true
+  AssassinsEssentials.SecureCheckC:
+    default: true
+  AssassinsEssentials.SSG:
+    default: true
